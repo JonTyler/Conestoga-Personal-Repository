@@ -43,6 +43,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblTurnCount = new System.Windows.Forms.Label();
             this.lblTurnOrder = new System.Windows.Forms.Label();
+            this.btnNewGame = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -189,11 +190,21 @@
             this.lblTurnOrder.TabIndex = 13;
             this.lblTurnOrder.Text = "label3";
             // 
+            // btnNewGame
+            // 
+            this.btnNewGame.Location = new System.Drawing.Point(507, 391);
+            this.btnNewGame.Name = "btnNewGame";
+            this.btnNewGame.Size = new System.Drawing.Size(75, 23);
+            this.btnNewGame.TabIndex = 14;
+            this.btnNewGame.Text = "New Game \\";
+            this.btnNewGame.UseVisualStyleBackColor = true;
+            // 
             // TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1026, 637);
+            this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.lblTurnOrder);
             this.Controls.Add(this.lblTurnCount);
             this.Controls.Add(this.label2);
@@ -233,6 +244,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblTurnCount;
         private System.Windows.Forms.Label lblTurnOrder;
+        private System.Windows.Forms.Button btnNewGame;
     }
 }
 

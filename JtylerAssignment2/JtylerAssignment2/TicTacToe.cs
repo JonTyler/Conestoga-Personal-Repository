@@ -10,14 +10,17 @@ using System.Windows.Forms;
 
 namespace JtylerAssignment2
 {
+    /// <summary>
+    /// The class for the form that contains all relevant code
+    /// </summary>
     public partial class TicTacToe : Form
     {
         public bool turnStateIsO = false;
         public const int NUMBER_OF_PICTURES = 9;
         public int turnCount = 1;
-       
-
-        
+        /// <summary>
+        /// Constructor for the Form
+        /// </summary>
         public TicTacToe()
         {
             InitializeComponent();
@@ -31,7 +34,7 @@ namespace JtylerAssignment2
         {
             for (int i = 0; i < NUMBER_OF_PICTURES; i++)
             {
-                picturePanel.Controls[i].Click += new EventHandler(PictureBoxClick);                
+                picturePanel.Controls[i].Click += new EventHandler(PictureBoxClick);
             }
             lblTurnCount.Text = turnCount.ToString();
             lblTurnOrder.Text = "X's Turn";
@@ -55,7 +58,7 @@ namespace JtylerAssignment2
                             break;
                         case false:
                             picturePanel.Controls[i].BackgroundImage = JtylerAssignment2.Properties.Resources._7406807_f260;
-                            picturePanel.Controls[i].BackgroundImageLayout = ImageLayout.Stretch;
+                            picturePanel.Controls[i].BackgroundImageLayout = ImageLayout.Stretch;                            
                             break;
                     }
                     TurnIncrement();
@@ -94,6 +97,7 @@ namespace JtylerAssignment2
         /// </summary>
         private void WinCheck (bool OsTurn)
         {
+            string[] nameArray = new string[NUMBER_OF_PICTURES];
             string WinMessage = "";
             if (OsTurn == true)
             {
@@ -103,40 +107,77 @@ namespace JtylerAssignment2
             {
                 WinMessage = "X's Win!";
             }
-
-            if ((pictureBox1.Image == pictureBox2.Image) && (pictureBox2.Image == pictureBox3.Image))
+            if (pictureBox1 != null && pictureBox2 != null && pictureBox3 != null)
             {
-                MessageBox.Show(WinMessage);
+                if ((pictureBox1.BackgroundImage == pictureBox2.BackgroundImage) && (pictureBox2.BackgroundImage == pictureBox3.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();                    
+                }
             }
-            else if ((pictureBox1.Image == pictureBox4.Image) && (pictureBox4.Image == pictureBox7.Image))
+            if (pictureBox4 != null && pictureBox5 != null && pictureBox6 != null)
             {
-                MessageBox.Show(WinMessage);
+                if ((pictureBox4.BackgroundImage == pictureBox5.BackgroundImage) && (pictureBox5.BackgroundImage == pictureBox6.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
             }
-            else if ((pictureBox1.Image == pictureBox5.Image) && (pictureBox5.Image == pictureBox9.Image))
+            if (pictureBox7 != null && pictureBox8 != null && pictureBox9 != null)
             {
-                MessageBox.Show(WinMessage);
+                if ((pictureBox7.BackgroundImage == pictureBox8.BackgroundImage) && (pictureBox8.BackgroundImage == pictureBox9.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
             }
-            else if ((pictureBox2.Image == pictureBox5.Image) && (pictureBox5.Image == pictureBox8.Image))
+            if (pictureBox1 != null && pictureBox4 != null && pictureBox7 != null)
             {
-                MessageBox.Show(WinMessage);
+                if ((pictureBox1.BackgroundImage == pictureBox4.BackgroundImage) && (pictureBox4.BackgroundImage == pictureBox7.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
             }
-            else if ((pictureBox3.Image == pictureBox6.Image) && (pictureBox6.Image == pictureBox9.Image))
+            if (pictureBox2 != null && pictureBox5 != null && pictureBox8 != null)
             {
-                MessageBox.Show(WinMessage);
+                if ((pictureBox2.BackgroundImage == pictureBox5.BackgroundImage) && (pictureBox5.BackgroundImage == pictureBox8.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
             }
-            else if ((pictureBox4.Image == pictureBox5.Image) && (pictureBox5.Image == pictureBox6.Image))
+            if (pictureBox3 != null && pictureBox6 != null && pictureBox9 != null)
             {
-                MessageBox.Show(WinMessage);
+                if ((pictureBox3.BackgroundImage == pictureBox6.BackgroundImage) && (pictureBox6.BackgroundImage == pictureBox9.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
             }
-            else if ((pictureBox7.Image == pictureBox8.Image) && (pictureBox8.Image == pictureBox9.Image))
+            if (pictureBox1 != null && pictureBox5 != null && pictureBox9 != null)
             {
-                MessageBox.Show(WinMessage);
+                if ((pictureBox1.BackgroundImage == pictureBox5.BackgroundImage) && (pictureBox5.BackgroundImage == pictureBox9.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
             }
-            else if ((pictureBox7.Image == pictureBox5.Image) && (pictureBox5.Image == pictureBox3.Image))
+            if (pictureBox7 != null && pictureBox5 != null && pictureBox3 != null)
             {
-                MessageBox.Show(WinMessage);
+                if ((pictureBox7.BackgroundImage == pictureBox5.BackgroundImage) && (pictureBox5.BackgroundImage == pictureBox3.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
             }
-
+        }
+        private void EndGame ()
+        {
+            for (int i = 0; i < NUMBER_OF_PICTURES; i++)
+            {
+                picturePanel.Controls[i].Enabled = false;
+            }
         }
 
     }
