@@ -8,6 +8,7 @@ c:\users\jon\documents\visual studio 2013\Projects\JtylerAssignment2\JtylerAssig
 c:\users\jon\documents\visual studio 2013\Projects\JtylerAssignment2\JtylerAssignment2\obj\Debug\JtylerAssignment2.exe
 c:\users\jon\documents\visual studio 2013\Projects\JtylerAssignment2\JtylerAssignment2\obj\Debug\JtylerAssignment2.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Jon\Documents\GitHub\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\bin\Debug\JtylerAssignment2.exe.config
 C:\Users\Jon\Documents\GitHub\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\obj\Debug\JtylerAssignment2.exe
 C:\Users\Jon\Documents\GitHub\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\obj\Debug\JtylerAssignment2.pdb
@@ -18,6 +19,8 @@ C:\Users\Jon\Documents\GitHub\Conestoga-Personal-Repository\JtylerAssignment2\Jt
 C:\Users\Jon\Documents\GitHub\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\obj\Debug\JtylerAssignment2.TicTacToe.resources
 C:\Users\Jon\Documents\GitHub\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\obj\Debug\JtylerAssignment2.csproj.GenerateResource.Cache
 =======
+=======
+>>>>>>> origin/master
 C:\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\bin\Debug\JtylerAssignment2.exe.config
 C:\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\obj\Debug\JtylerAssignment2.exe
 C:\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\obj\Debug\JtylerAssignment2.pdb
@@ -27,4 +30,7 @@ C:\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\obj\Debug\J
 C:\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\obj\Debug\JtylerAssignment2.csproj.GenerateResource.Cache
 C:\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\bin\Debug\JtylerAssignment2.exe
 C:\Conestoga-Personal-Repository\JtylerAssignment2\JtylerAssignment2\bin\Debug\JtylerAssignment2.pdb
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master

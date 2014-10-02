@@ -19,23 +19,30 @@ using System.Windows.Forms;
 namespace JtylerAssignment2
 {
     /// <summary>
+<<<<<<< HEAD
 
     /// The Systm.Windows.Forms class for the Form.
 
     /// The class for the form that contains all relevant code
 
+=======
+    /// The class for the form that contains all relevant code
+>>>>>>> origin/master
     /// </summary>
     public partial class TicTacToe : Form
     {
         public bool turnStateIsO = false;
         public const int NUMBER_OF_PICTURES = 9;
         public int turnCount = 1;
+<<<<<<< HEAD
 
         public int[] selectedTurn = new int[NUMBER_OF_PICTURES];
         public const int X_WIN = 3;
         public const int O_WIN = -3;
         /// <summary>
 
+=======
+>>>>>>> origin/master
         /// <summary>
         /// Constructor for the Form
         /// </summary>
@@ -77,8 +84,11 @@ namespace JtylerAssignment2
                             break;
                         case false:
                             picturePanel.Controls[i].BackgroundImage = JtylerAssignment2.Properties.Resources._7406807_f260;
+<<<<<<< HEAD
                             picturePanel.Controls[i].BackgroundImageLayout = ImageLayout.Stretch;
                             selectedTurn[i] = 1;
+=======
+>>>>>>> origin/master
                             picturePanel.Controls[i].BackgroundImageLayout = ImageLayout.Stretch;                            
                             break;
                     }
@@ -131,6 +141,7 @@ namespace JtylerAssignment2
             {
                 WinMessage = "0's Win!";
             }
+<<<<<<< HEAD
 
             int win1 = selectedTurn[0] + selectedTurn[1] + selectedTurn[2];
             WinTest(win1, WinMessage);
@@ -199,6 +210,79 @@ namespace JtylerAssignment2
             lblTurnOrder.Text = "X's Turn";
 
 
+=======
+            if (pictureBox1 != null && pictureBox2 != null && pictureBox3 != null)
+            {
+                if ((pictureBox1.BackgroundImage == pictureBox2.BackgroundImage) && (pictureBox2.BackgroundImage == pictureBox3.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();                    
+                }
+            }
+            if (pictureBox4 != null && pictureBox5 != null && pictureBox6 != null)
+            {
+                if ((pictureBox4.BackgroundImage == pictureBox5.BackgroundImage) && (pictureBox5.BackgroundImage == pictureBox6.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
+            }
+            if (pictureBox7 != null && pictureBox8 != null && pictureBox9 != null)
+            {
+                if ((pictureBox7.BackgroundImage == pictureBox8.BackgroundImage) && (pictureBox8.BackgroundImage == pictureBox9.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
+            }
+            if (pictureBox1 != null && pictureBox4 != null && pictureBox7 != null)
+            {
+                if ((pictureBox1.BackgroundImage == pictureBox4.BackgroundImage) && (pictureBox4.BackgroundImage == pictureBox7.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
+            }
+            if (pictureBox2 != null && pictureBox5 != null && pictureBox8 != null)
+            {
+                if ((pictureBox2.BackgroundImage == pictureBox5.BackgroundImage) && (pictureBox5.BackgroundImage == pictureBox8.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
+            }
+            if (pictureBox3 != null && pictureBox6 != null && pictureBox9 != null)
+            {
+                if ((pictureBox3.BackgroundImage == pictureBox6.BackgroundImage) && (pictureBox6.BackgroundImage == pictureBox9.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
+            }
+            if (pictureBox1 != null && pictureBox5 != null && pictureBox9 != null)
+            {
+                if ((pictureBox1.BackgroundImage == pictureBox5.BackgroundImage) && (pictureBox5.BackgroundImage == pictureBox9.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
+            }
+            if (pictureBox7 != null && pictureBox5 != null && pictureBox3 != null)
+            {
+                if ((pictureBox7.BackgroundImage == pictureBox5.BackgroundImage) && (pictureBox5.BackgroundImage == pictureBox3.BackgroundImage))
+                {
+                    MessageBox.Show(WinMessage);
+                    EndGame();
+                }
+            }
+        }
+        private void EndGame ()
+        {
+            for (int i = 0; i < NUMBER_OF_PICTURES; i++)
+            {
+                picturePanel.Controls[i].Enabled = false;
+            }
+>>>>>>> origin/master
         }
 
     }
