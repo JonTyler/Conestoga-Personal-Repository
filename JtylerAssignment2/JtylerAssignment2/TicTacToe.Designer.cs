@@ -43,6 +43,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblTurnCount = new System.Windows.Forms.Label();
             this.lblTurnOrder = new System.Windows.Forms.Label();
+            this.btnNewGame = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -57,7 +58,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(36, 34);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(35, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
             this.pictureBox1.TabIndex = 0;
@@ -65,7 +67,8 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(171, 34);
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Location = new System.Drawing.Point(309, 34);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 100);
             this.pictureBox2.TabIndex = 1;
@@ -73,7 +76,8 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(312, 34);
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Location = new System.Drawing.Point(35, 170);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 100);
             this.pictureBox3.TabIndex = 2;
@@ -81,7 +85,8 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(36, 170);
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Location = new System.Drawing.Point(173, 170);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 100);
             this.pictureBox4.TabIndex = 3;
@@ -89,7 +94,8 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(171, 170);
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Location = new System.Drawing.Point(35, 304);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 100);
             this.pictureBox5.TabIndex = 4;
@@ -97,7 +103,8 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(312, 170);
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Location = new System.Drawing.Point(173, 304);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(100, 100);
             this.pictureBox6.TabIndex = 5;
@@ -105,8 +112,9 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.InitialImage")));
-            this.pictureBox7.Location = new System.Drawing.Point(36, 302);
+            this.pictureBox7.Location = new System.Drawing.Point(309, 304);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 100);
             this.pictureBox7.TabIndex = 6;
@@ -114,8 +122,9 @@
             // 
             // pictureBox8
             // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.InitialImage")));
-            this.pictureBox8.Location = new System.Drawing.Point(171, 302);
+            this.pictureBox8.Location = new System.Drawing.Point(309, 170);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(100, 100);
             this.pictureBox8.TabIndex = 7;
@@ -123,7 +132,8 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(312, 302);
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.Location = new System.Drawing.Point(173, 34);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(100, 100);
             this.pictureBox9.TabIndex = 8;
@@ -136,12 +146,12 @@
             this.picturePanel.Controls.Add(this.pictureBox1);
             this.picturePanel.Controls.Add(this.pictureBox9);
             this.picturePanel.Controls.Add(this.pictureBox2);
-            this.picturePanel.Controls.Add(this.pictureBox8);
             this.picturePanel.Controls.Add(this.pictureBox3);
-            this.picturePanel.Controls.Add(this.pictureBox7);
             this.picturePanel.Controls.Add(this.pictureBox4);
-            this.picturePanel.Controls.Add(this.pictureBox6);
+            this.picturePanel.Controls.Add(this.pictureBox8);
             this.picturePanel.Controls.Add(this.pictureBox5);
+            this.picturePanel.Controls.Add(this.pictureBox6);
+            this.picturePanel.Controls.Add(this.pictureBox7);
             this.picturePanel.Location = new System.Drawing.Point(12, 12);
             this.picturePanel.Name = "picturePanel";
             this.picturePanel.Size = new System.Drawing.Size(445, 432);
@@ -189,11 +199,23 @@
             this.lblTurnOrder.TabIndex = 13;
             this.lblTurnOrder.Text = "label3";
             // 
+            // btnNewGame
+            // 
+            this.btnNewGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewGame.Location = new System.Drawing.Point(507, 391);
+            this.btnNewGame.Name = "btnNewGame";
+            this.btnNewGame.Size = new System.Drawing.Size(205, 68);
+            this.btnNewGame.TabIndex = 14;
+            this.btnNewGame.Text = "New Game ";
+            this.btnNewGame.UseVisualStyleBackColor = true;
+            this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
+            // 
             // TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1026, 637);
+            this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.lblTurnOrder);
             this.Controls.Add(this.lblTurnCount);
             this.Controls.Add(this.label2);
@@ -233,6 +255,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblTurnCount;
         private System.Windows.Forms.Label lblTurnOrder;
+        private System.Windows.Forms.Button btnNewGame;
     }
 }
 
