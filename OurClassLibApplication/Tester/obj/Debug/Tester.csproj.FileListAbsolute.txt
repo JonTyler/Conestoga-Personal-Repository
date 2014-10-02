@@ -1,0 +1,11 @@
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\bin\Debug\Tester.exe.config
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\bin\Debug\Tester.exe
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\bin\Debug\Tester.pdb
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\bin\Debug\OurClassLibApplication.dll
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\bin\Debug\OurClassLibApplication.pdb
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\obj\Debug\Tester.Form1.resources
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\obj\Debug\Tester.Properties.Resources.resources
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\obj\Debug\Tester.csproj.GenerateResource.Cache
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\obj\Debug\Tester.exe
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\Tester\obj\Debug\Tester.pdb

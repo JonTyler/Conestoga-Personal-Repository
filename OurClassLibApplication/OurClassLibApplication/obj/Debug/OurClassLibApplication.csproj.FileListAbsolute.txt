@@ -1,0 +1,6 @@
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\OurClassLibApplication\bin\Debug\OurClassLibApplication.dll
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\OurClassLibApplication\bin\Debug\OurClassLibApplication.pdb
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\OurClassLibApplication\obj\Debug\OurClassLibApplication.WorldClock.resources
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\OurClassLibApplication\obj\Debug\OurClassLibApplication.csproj.GenerateResource.Cache
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\OurClassLibApplication\obj\Debug\OurClassLibApplication.dll
+\\FS06D\Stu7\Home\Jtyler-cc\Visual Studio 2013\Projects\OurClassLibApplication\OurClassLibApplication\obj\Debug\OurClassLibApplication.pdb
