@@ -1,0 +1,10 @@
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\bin\Debug\ButtonApplication.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\bin\Debug\ButtonApplication.exe
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\bin\Debug\ButtonApplication.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.RaceButtons.resources
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.exe
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.JumpingButton4.resources
+c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.RaceGame.resources
