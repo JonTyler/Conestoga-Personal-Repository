@@ -201,7 +201,6 @@
             // 
             // btnNewGame
             // 
-<<<<<<< HEAD
             this.btnNewGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNewGame.Location = new System.Drawing.Point(507, 391);
             this.btnNewGame.Name = "btnNewGame";
@@ -210,14 +209,13 @@
             this.btnNewGame.Text = "New Game ";
             this.btnNewGame.UseVisualStyleBackColor = true;
             this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
-=======
             this.btnNewGame.Location = new System.Drawing.Point(507, 391);
             this.btnNewGame.Name = "btnNewGame";
             this.btnNewGame.Size = new System.Drawing.Size(75, 23);
             this.btnNewGame.TabIndex = 14;
             this.btnNewGame.Text = "New Game \\";
             this.btnNewGame.UseVisualStyleBackColor = true;
->>>>>>> origin/master
+
             // 
             // TicTacToe
             // 
