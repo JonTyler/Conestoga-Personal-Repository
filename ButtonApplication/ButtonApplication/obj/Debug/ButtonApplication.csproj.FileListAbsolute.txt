@@ -8,3 +8,6 @@ c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\B
 c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.pdb
 c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.JumpingButton4.resources
 c:\users\administrator\documents\visual studio 2013\Projects\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.RaceGame.resources
+C:\Users\Jon\Documents\GitHub\Conestoga-Personal-Repository\ButtonApplication\ButtonApplication\bin\Debug\ButtonApplication.exe.config
+C:\Users\Jon\Documents\GitHub\Conestoga-Personal-Repository\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.exe
+C:\Users\Jon\Documents\GitHub\Conestoga-Personal-Repository\ButtonApplication\ButtonApplication\obj\Debug\ButtonApplication.pdb

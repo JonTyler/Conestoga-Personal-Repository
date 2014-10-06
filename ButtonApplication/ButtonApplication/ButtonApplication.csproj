@@ -53,6 +53,15 @@
     <Compile Include="JumpingButton4.Designer.cs">
       <DependentUpon>JumpingButton4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pony.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RaceCopy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaceCopy.Designer.cs">
+      <DependentUpon>RaceCopy.cs</DependentUpon>
+    </Compile>
     <Compile Include="RaceGame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="JumpingButton4.resx">
       <DependentUpon>JumpingButton4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaceCopy.resx">
+      <DependentUpon>RaceCopy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RaceGame.resx">
       <DependentUpon>RaceGame.cs</DependentUpon>
